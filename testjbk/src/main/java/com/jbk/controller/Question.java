@@ -21,6 +21,8 @@ public class Question {
 	String option5;
 	String correctOption;
 	String explanation;
+	
+	//as we have used lombok we should not be writing this....
 	@Override
 	public int hashCode() {
 		final int prime = 31;
